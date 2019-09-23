@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#customer {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+    text-align: center;
+}
+
+img {
+    border-radius: 50px;
+}
+
+
+/* div {
+    padding: 5px;
+} */
+
+div.customer {
+    padding: 1rem;
+}
+
+.customer_email {
+    color: grey;
+}
+
+h1 {
+    padding: 0 1rem;
+}
+
+.customer_name {
+    font-size: 21px;
+}
+
+.customer_address {
+    text-transform: capitalize;
+}
