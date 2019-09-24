@@ -35,6 +35,10 @@ h1 {
     font-size: 21px;
 }
 
-.customer_address {
+.customer_address1 {
+    text-transform: capitalize;
+}
+
+.customer_address2 {
     text-transform: capitalize;
 }
