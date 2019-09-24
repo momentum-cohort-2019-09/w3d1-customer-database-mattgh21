@@ -10,10 +10,10 @@ function customerToHtml(customer) {
         <div class="customer_name ">${capitalize(customer.name.first)} ${capitalize(customer.name.last)}</div>
         <div class="customer_email">${customer.email}</div>
         <div class="customer_info">
-        <div class="customer_address">${capitalize(customer.location.street)}</div>
+        <div class="customer_address">${customer.location.street}</div>
         <div class="customer_phone">${customer.phone}</div>
-        <div class="customer_dob">DOB: ${customer.dob}</div>
-        <div class="customer_registered">Customer Since: ${customer.registered}</div>
+        <div class="customer_dob">DOB: ${moment(customer.dob).format('MMM do YYYY')}</div>
+        <div class="customer_registered">Customer Since: ${moment(customer.registered).format('MMM do YYYY')}</div>
         </div>
     </div>    
     `
